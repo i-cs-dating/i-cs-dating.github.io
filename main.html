@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>I CS Dating</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/3204349982.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="col-md-12">
+
+        <!-- profile -->
+        <div class="row pt-4" id="profile-image-row">
+          <div class="col-md-1">
+            <img
+              src="https://source.unsplash.com/random/300x300"
+              class="img-fluid rounded-circle"
+              alt="profile image"
+            />
+          </div>
+          <h2
+            class="ms-auto col-md-auto d-flex align-items-center my-auto"
+          >
+            username 1
+          </h2>
+          <img
+            src="https://source.unsplash.com/random/300x300"
+            class="rounded-circle col-md-1"
+            alt="profile image"
+          />
+        </div>
+
+        <!-- username -->
+        <div class="row pt-4">
+          <div class="col-md-12">
+            <h1>username 2</h1>
+          </div>
+        </div>
+
+        <!-- code -->
+        <div class="row">
+          <div class="col-md-12">
+            <textarea
+              class="form-control"
+              rows="20"
+              placeholder="Write your code..."
+            ></textarea>
+          </div>
+        </div>
+
+        <!-- upvote and downvote -->
+        <div class="row col-md-12 d-inline-flex">
+          <button
+            class="btn btn-primary col-md-5 p-6 mx-auto my-4"
+          >
+            Upvote &uarr;
+          </button>
+          <button
+            class="btn btn-danger col-md-5 p-6 mx-auto my-4"
+          >
+            Downvote &darr;
+          </button>
+        </div>
+
+        <!-- rating with stars -->
+        <div class="row">
+          <div class="col-md-12">
+            <div class="d-flex">
+              <h3 class="my-auto me-4">Ratings</h3>
+              <div class="d-flex flex-row">
+                <div class="p-2 text-warning">
+                  <i class="fas fa-star"></i>
+                </div>
+                <div class="p-2 text-warning">
+                  <i class="fas fa-star"></i>
+                </div>
+                <div class="p-2 text-warning">
+                  <i class="fas fa-star"></i>
+                </div>
+                <div class="p-2 text-warning">
+                  <i class="fas fa-star"></i>
+                </div>
+                <div class="p-2 text-warning">
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- bar chart with number of star votes for each star count -->
+        <div class="row">
+          <div class="col-md-12">
+            <div class="progress my-2">
+              <div class="progress-bar" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"></div>
+              <p class="mx-2 my-auto">12</p>
+            </div>
+            <div class="progress my-2">
+              <div class="progress-bar" role="progressbar" style="width: 6%" aria-valuenow="6" aria-valuemin="0" aria-valuemax="100"></div>
+              <p class="mx-2 my-auto">6</p>
+            </div>
+            <div class="progress my-2">
+              <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+              <p class="mx-2 my-auto">10</p>
+            </div>
+            <div class="progress my-2">
+              <div class="progress-bar" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+              <p class="mx-2 my-auto">30</p>
+            </div>
+            <div class="progress my-2">
+              <div class="progress-bar" role="progressbar" style="width: 14%" aria-valuenow="14" aria-valuemin="0" aria-valuemax="100"></div>
+              <p class="mx-2 my-auto">14</p>
+            </div>
+          </div>
+    </div>
+  </body>
+</html>
